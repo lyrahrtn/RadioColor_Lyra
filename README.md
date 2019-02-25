@@ -1,0 +1,19 @@
+# RadioColor_Lyra
+form
+![alt text](https://github.com/lyrahrtn/RadioColor_Lyra/blob/master/r.jpg)
+warna cayon
+![alt text](https://github.com/lyrahrtn/RadioColor_Lyra/blob/master/r1.jpg)
+warna yellow
+![alt text](https://github.com/lyrahrtn/RadioColor_Lyra/blob/master/r2.jpg)
+warna dark
+![alt text](https://github.com/lyrahrtn/RadioColor_Lyra/blob/master/r3.jpg)
+warna pink
+![alt text](https://github.com/lyrahrtn/RadioColor_Lyra/blob/master/r4.jpg)
+warna green
+![alt text](https://github.com/lyrahrtn/RadioColor_Lyra/blob/master/r5.jpg)
+warna blue
+![alt text](https://github.com/lyrahrtn/RadioColor_Lyra/blob/master/r6.jpg)
+warna white
+![alt text](https://github.com/lyrahrtn/RadioColor_Lyra/blob/master/r7.jpg)
+warna red
+![alt text](https://github.com/lyrahrtn/RadioColor_Lyra/blob/master/r8.jpg)
