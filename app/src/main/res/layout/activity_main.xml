@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    tools:context="id.sch.smktelkom_mlg.www.radiocolor.MainActivity"
+    android:weightSum="1">
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Warna"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:background="#03feed"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <Button
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Keluar"
+        android:id="@+id/btnexit"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="35dp"
+        android:layout_alignEnd="@+id/txtwarna" />
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Warna yang dipilih"
+        android:gravity="center"
+        android:id="@+id/txtwarna"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_above="@+id/btnexit"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="50dp" />
+
+
+    <RadioGroup android:id="@+id/RadioGroup01"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="77dp">
+
+        <RadioButton
+            android:id="@+id/rdb8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:checked="false"
+            android:layout_weight="0.86"
+            android:layout_gravity="center_vertical"
+            android:layout_below="@+id/textView"
+            android:layout_alignStart="@+id/RadioGroup01"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Cayon"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rdb5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="false"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Yellow"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/rdb4"
+            android:layout_alignStart="@+id/RadioGroup01" />
+
+        <RadioButton
+            android:id="@+id/rdb6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="false"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Dark"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_above="@+id/rdb7"
+            android:layout_alignStart="@+id/rdb7" />
+
+        <RadioButton
+            android:id="@+id/rdb7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Pink"
+            android:textAlignment="center"
+            android:checked="false"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_above="@+id/rdb2"
+            android:layout_alignStart="@+id/rdb2" />
+
+        <RadioButton
+            android:id="@+id/rdb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Green"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_alignStart="@+id/btnexit"/>
+
+        <RadioButton
+            android:id="@+id/rdb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Blue"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/RadioGroup01"
+            android:layout_alignStart="@+id/RadioGroup01"/>
+
+        <RadioButton
+            android:id="@+id/rdb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-condensed"
+            android:text="White"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="White"
+            android:checked="false"
+            android:layout_below="@+id/textView"
+            android:layout_alignEnd="@+id/textView"
+            />
+
+        <RadioButton
+            android:id="@+id/rdb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Red"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/rdb3"
+            android:layout_alignStart="@+id/rdb6"/>
+    </RadioGroup>
+
+</RelativeLayout>
